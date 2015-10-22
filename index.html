@@ -9,9 +9,9 @@
 <body>
   <h1>SSE</h1>
   <script>
-    var socket = io('http://localhost:7331');
+    var socket = io('http://' + window.location.hostname + ':7331');
     socket.on('data', function(data) {
-      document.body.innerHTML += data + ' <br>';
+      document.body.innerHTML = data + ' <br>';
     });
 
   </script>
