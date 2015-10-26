@@ -5,5 +5,5 @@
 3. http://localhost:9999/index.html
 4. php index.php
 
-The index.php will send urls to the node server via HTTP POST and the index.html plays the urls via websockets from the node server.
+The index.php will send urls to the node server via HTTP POST and the index.html plays the urls being pushed via websockets from the node server.
 
