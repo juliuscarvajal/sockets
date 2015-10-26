@@ -59,7 +59,9 @@ foreach ($urls as $url2play) {
   rtrim($postData, '&');
 
   $response = query($url, $postData);
-  //print_r($response);
+  print_r($response);
   
-  sleep(10);
+  sleep(10);  
 }
+
+echo "\n";
